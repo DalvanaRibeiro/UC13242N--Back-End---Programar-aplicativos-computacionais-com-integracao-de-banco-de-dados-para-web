@@ -7,7 +7,8 @@
 - **Site Oficial do Node.js:** https://nodejs.org  
 - **Documentação do TypeScript:** https://www.typescriptlang.org/docs  
 - **Documentação do Express:** https://expressjs.com/pt-br/  
-- **npm (Gerenciador de Pacotes):** https://www.npmjs.com  
+- **npm (Gerenciador de Pacotes):** https://www.npmjs.com
+- **Link da Aula: ** https://www.canva.com/design/DAG63yfacWI/ijsA-qH4T9PhnslYCKMvOA/edit?utm_content=DAG63yfacWI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 ---
 
