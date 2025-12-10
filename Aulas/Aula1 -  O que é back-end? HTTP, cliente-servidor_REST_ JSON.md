@@ -1,4 +1,4 @@
-# **Aula: Ambiente de Desenvolvimento Node.js + TypeScript**  
+# **Aula1: O que é back-end? HTTP, cliente-servidor, REST, JSON**  
 ## **Conceitos Fundamentais, Stack Tecnológica e Funcionamento Didático**
 
 ---
