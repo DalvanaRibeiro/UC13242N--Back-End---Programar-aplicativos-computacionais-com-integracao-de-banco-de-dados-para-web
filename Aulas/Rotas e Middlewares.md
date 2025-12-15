@@ -79,6 +79,23 @@ Ele atua como um intermediário no fluxo da requisição, ficando **no meio do c
 
  Por isso o nome **middleware** (do inglês: *meio do caminho*).
 
+
+ Ou seja, é uma função que fica no meio do caminho entre:
+
+ - a requisição que o cliente envia
+- e a rota que vai responder essa requisição
+
+Em outras palavras:
+
+Toda requisição passa primeiro pelos middlewares antes de chegar na rota.
+
+Por isso o nome middleware
+(middle = meio / ware = componente)
+
+<img width="330" height="320" alt="image" src="https://github.com/user-attachments/assets/e2596f48-411c-4e80-85bd-fb67f6920efd" />
+
+
+
 ---
 
 #  Para que servem os Middlewares?
