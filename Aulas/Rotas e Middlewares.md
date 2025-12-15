@@ -1,9 +1,9 @@
 
-#🚏 Rotas e 🧱 Middlewares no Express.js
+#🚏 Rotas e  Middlewares no Express.js
 
 ---
 
-## 🎯 Objetivo da Aula
+##  Objetivo da Aula
 
 Ao final desta aula conseguiremos:
 
@@ -17,7 +17,7 @@ Ao final desta aula conseguiremos:
 
 ---
 
-## 🧠 O que é uma Rota?
+##  O que é uma Rota?
 
 Uma **rota** é um **endereço que o servidor disponibiliza** para que clientes possam se comunicar com ele.
 
@@ -53,7 +53,7 @@ As rotas servem para:
 
 ❗ Sem rotas, o back-end não existe para o mundo externo.
 
-# 🌐 Métodos HTTP mais comuns
+#  Métodos HTTP mais comuns
 
 Os **métodos HTTP** definem a ação que será executada em uma rota da API.
 
@@ -68,7 +68,7 @@ Os **métodos HTTP** definem a ação que será executada em uma rota da API.
 
 ---
 
-# 🧱 O que é um Middleware?
+#  O que é um Middleware?
 
 Um **middleware** é uma **função que é executada antes da rota**.
 
@@ -77,11 +77,11 @@ Ele atua como um intermediário no fluxo da requisição, ficando **no meio do c
 ➡️ **Requisição (`req`)**  
 ➡️ **Resposta (`res`)**
 
-📌 Por isso o nome **middleware** (do inglês: *meio do caminho*).
+ Por isso o nome **middleware** (do inglês: *meio do caminho*).
 
 ---
 
-# 🧠 Para que servem os Middlewares?
+#  Para que servem os Middlewares?
 
 Middlewares são utilizados para executar tarefas importantes **antes** da lógica principal da rota.
 
@@ -133,7 +133,7 @@ O que ele faz?
 
 ````
 function logMiddleware(req: Request, res: Response, next: NextFunction) {
-  console.log(`📢 Rota acessada: ${req.method} ${req.url}`);
+  console.log(` Rota acessada: ${req.method} ${req.url}`);
   next(); // libera a requisição para continuar
 }
 
