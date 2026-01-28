@@ -1,5 +1,15 @@
 
-# 🚏 Rotas e  Middlewares no Express.js
+## **Links Importantes**
+- **Site Oficial do Node.js:** https://nodejs.org  
+- **Documentação do TypeScript:** https://www.typescriptlang.org/docs  
+- **Documentação do Express:** https://expressjs.com/pt-br/  
+- **npm (Gerenciador de Pacotes):** https://www.npmjs.com
+- **Link da Aula:** https://www.canva.com/design/DAG9Tgdew7s/iCZSqnpmltVZdLYFPgFiDQ/edit?utm_content=DAG9Tgdew7s&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+---
+
+
+
+#  Rotas e  Middlewares no Express
 
 ---
 
@@ -39,6 +49,10 @@ Significa:
 
 “Quero buscar os usuários cadastrados no servidor.”
 
+
+
+
+
 ## Para que servem as Rotas?
 
 As rotas servem para:
@@ -52,6 +66,9 @@ As rotas servem para:
 - Permitir a comunicação entre front-end e back-end
 
 ❗ Sem rotas, o back-end não existe para o mundo externo.
+
+<img width="920" height="524" alt="image" src="https://github.com/user-attachments/assets/bf7e1680-e2f4-4d24-914a-702568d7630e" />
+
 
 #  Métodos HTTP mais comuns
 
@@ -74,8 +91,8 @@ Um **middleware** é uma **função que é executada antes da rota**.
 
 Ele atua como um intermediário no fluxo da requisição, ficando **no meio do caminho** entre:
 
-➡️ **Requisição (`req`)**  
-➡️ **Resposta (`res`)**
+ **Requisição (`req`)**  
+ **Resposta (`res`)**
 
  Por isso o nome **middleware** (do inglês: *meio do caminho*).
 
@@ -92,7 +109,8 @@ Toda requisição passa primeiro pelos middlewares antes de chegar na rota.
 Por isso o nome middleware
 (middle = meio / ware = componente)
 
-<img width="330" height="320" alt="image" src="https://github.com/user-attachments/assets/e2596f48-411c-4e80-85bd-fb67f6920efd" />
+<img width="919" height="517" alt="image" src="https://github.com/user-attachments/assets/bb75cc23-c04a-42c3-b171-0b8723cf4393" />
+
 
 
 
