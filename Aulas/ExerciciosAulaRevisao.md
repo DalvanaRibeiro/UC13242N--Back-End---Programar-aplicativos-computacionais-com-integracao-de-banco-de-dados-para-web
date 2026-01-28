@@ -36,7 +36,7 @@ app.use((req: Request, res: Response, next: NextFunction) => {
   next();
 });
 
-// ✅ 5) Middleware de validação (será usado apenas no POST)
+//  Middleware de validação (será usado apenas no POST)
 function validarTitulo(req: Request, res: Response, next: NextFunction) {
   // Pega o titulo enviado pelo cliente no corpo da requisição
   const { titulo } = req.body;
@@ -51,7 +51,7 @@ function validarTitulo(req: Request, res: Response, next: NextFunction) {
   next();
 }
 
-//  2) GET /tarefas (com query de filtro)
+//   GET /tarefas (com query de filtro)
 app.get("/tarefas", (req: Request, res: Response) => {
   // Pega a query concluida (pode vir como "true" ou "false")
   const { concluida } = req.query;
@@ -72,7 +72,7 @@ app.get("/tarefas", (req: Request, res: Response) => {
   return res.status(200).json(filtradas);
 });
 
-// ✅ 3) GET /tarefas/:id (com params)
+// GET /tarefas/:id (com params)
 app.get("/tarefas/:id", (req: Request, res: Response) => {
   // Pega o id que veio na URL: /tarefas/10 -> id = "10"
   const { id } = req.params;
