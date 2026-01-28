@@ -126,7 +126,7 @@ app.listen(3000, () => {
 
 ## 🟢 Exercício 1 – API de Tarefas
 
-### Enunciado
+
 
 Desenvolva uma API de **tarefas** utilizando **Node.js + Express + TypeScript**.
 
@@ -158,7 +158,6 @@ Desenvolva uma API de **tarefas** utilizando **Node.js + Express + TypeScript**.
 
 ## 🟡 Exercício 2 – API de Produtos
 
-### Enunciado
 
 Desenvolva uma API de **produtos** utilizando **Node.js + Express + TypeScript**.
 
@@ -195,7 +194,6 @@ Desenvolva uma API de **produtos** utilizando **Node.js + Express + TypeScript**
 
 ## 🔴 Exercício 3 – API de Chamados (Helpdesk)
 
-### Enunciado
 
 Desenvolva uma API de **chamados de suporte (Helpdesk)** utilizando **Node.js + Express + TypeScript**.
 
