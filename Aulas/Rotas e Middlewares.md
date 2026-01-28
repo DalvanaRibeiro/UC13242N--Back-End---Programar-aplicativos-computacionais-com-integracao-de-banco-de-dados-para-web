@@ -255,40 +255,7 @@ O servidor envia a resposta
 
 -----------------
 
-🏋️‍♀️ #  Exercício Prático — Time de Futebol dos Sonhos ⚽
 
-##  Contexto
-
-
-Faça um servidor que disponibiliza uma API de jogadores onde os usuários podem montar o **time de futebol dos sonhos**.
-
-Cada jogador será cadastrado apenas pelo **nome**, e todos os dados ficarão armazenados **em memória**, utilizando um **array** (sem banco de dados, ainda).
-
-Este exercício utiliza **exatamente o mesmo conceito visto em aula** com rotas, middlewares e array em memória. Utilize como rota 'jogadores'.
-
----
-
-##  Objetivo do Exercício
-
-Criar um servidor **Node.js + Express** que permita:
-
-- Cadastrar jogadores no time dos sonhos  
-- Listar todos os jogadores cadastrados  
-- Utilizar **rotas HTTP** corretamente  
-- Utilizar pelo menos **um middleware**
-
----
-
-##  Regras Importantes
-
-- O time será armazenado em um **array em memória**
-- Cada jogador terá apenas:
-  - `nome` (string)
-- Os métodos: GET, POST, PUT e DELETE devem ser implementados.
-
-## Feito o exercício, aguarde para a dinâmica em aula.
-
----
 
 
 
