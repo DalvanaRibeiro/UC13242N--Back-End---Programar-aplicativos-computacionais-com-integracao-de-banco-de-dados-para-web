@@ -1,4 +1,4 @@
-
+Link da aula: https://www.canva.com/design/DAHBsQcYpdQ/jVOjM1vopUIIdCRHwsjQ7g/edit?utm_content=DAHBsQcYpdQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 
 # O que é o TypeORM?
