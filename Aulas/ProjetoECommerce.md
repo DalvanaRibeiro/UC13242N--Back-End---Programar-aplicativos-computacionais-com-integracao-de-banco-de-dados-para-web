@@ -52,7 +52,12 @@ Criar script "dev" no package.json
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
     "build": "tsc",
-    "start": "node dist/server.js"
+    "start": "node dist/server.js",
+
+    "typeorm": "typeorm-ts-node-commonjs",
+    "migration:generate": "npm run typeorm -- migration:generate src/migrations/Migration -d src/database/data-source.ts",
+    "migration:run": "npm run typeorm -- migration:run -d src/database/data-source.ts",
+    "migration:revert": "npm run typeorm -- migration:revert -d src/database/data-source.ts"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
@@ -64,6 +69,7 @@ Criar script "dev" no package.json
   "devDependencies": {
     "@types/express": "^4.17.21",
     "@types/node": "^20.12.12",
+    "ts-node": "^10.9.2",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.4.5"
   }
@@ -89,6 +95,10 @@ src/
 
 ---
 ## Criando os arquivos
+<img width="216" height="525" alt="image" src="https://github.com/user-attachments/assets/2910c1a9-1286-4c82-b0f8-209d59609d40" />
+
+
+## 0 cria o .env
 
 ##  1 database/data-source.ts (Sempre primeiro)
 
@@ -129,6 +139,32 @@ Criar na ordem de dependência:
  ➡ Depois as que possuem relacionamentos.
 
 Essa ordem evita erro de import circular durante desenvolvimento.
+
+## 3. Gera o migration
+
+```bah
+npm run migration:generate
+```
+Agora será criado um arquivo dentro de:
+
+src/migrations
+
+
+Mas o banco ainda está vazio.
+
+Rodar migration (AGORA cria tabela)
+```bash
+
+npm run migration:run
+```
+
+Agora sim:
+
+<img width="299" height="148" alt="image" src="https://github.com/user-attachments/assets/852d628c-dd47-4053-9467-f9e2cb4bb118" />
+
+
+
+
 
 ## 3.  DTOs
 
