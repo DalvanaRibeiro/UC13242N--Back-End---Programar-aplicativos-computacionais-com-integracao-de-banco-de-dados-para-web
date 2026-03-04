@@ -89,7 +89,7 @@ src/
  ├── routes
  ├── services
  ├── utils
-
+ ├── migrations
 ```
 
 
