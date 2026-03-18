@@ -195,7 +195,7 @@ DB_HOST=localhost
 DB_PORT=3306
 DB_USERNAME=root
 DB_PASSWORD=root
-DB_DATABASE=api_auth_mvc
+DB_DATABASE=apiauthmvc
 
 ````
 
