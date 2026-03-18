@@ -532,7 +532,7 @@ export class AuthService {
     };
   }
 }
-
+````
 O que esse arquivo faz
 
 Fica com as regras de negócio.
@@ -557,11 +557,9 @@ compara senha com bcrypt
 
 gera token JWT
 
-Me
+Me  busca o usuário logado pelo id do token
 
-busca o usuário logado pelo id do token
 
-```
 #### 6.8 ```Criar src/controllers/AuthController.ts```
 
 Este arquivo define o formato esperado para criar um pedido
