@@ -180,7 +180,7 @@ api-auth-mvc
 ### 7. Criar o Banco
 
 ````SQL
-CREATE DATABASE api-auth-mvc
+CREATE DATABASE apiauthmvc
 ````
 
 ### 8. ```.env```
