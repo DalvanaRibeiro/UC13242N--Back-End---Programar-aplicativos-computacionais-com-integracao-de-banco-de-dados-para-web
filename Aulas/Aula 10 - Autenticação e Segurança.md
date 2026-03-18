@@ -873,4 +873,7 @@ Resultado esperado
   "email": "dalvana@email.com"
 }
 ``` 
+## Projeto Aberto 
+
+<img width="393" height="754" alt="image" src="https://github.com/user-attachments/assets/4b3004c9-6a34-4173-8ed4-5f06800f2dd8" />
 
